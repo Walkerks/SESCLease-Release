@@ -1,0 +1,2 @@
+/usr/bin/ar cr libTM.a  CMakeFiles/TM.dir/PrivateCache.cpp.o CMakeFiles/TM.dir/HTMManager.cpp.o CMakeFiles/TM.dir/RWSetManager.cpp.o CMakeFiles/TM.dir/TMContext.cpp.o CMakeFiles/TM.dir/TMState.cpp.o CMakeFiles/TM.dir/TMStorage.cpp.o CMakeFiles/TM.dir/TSXManager.cpp.o CMakeFiles/TM.dir/IdealTSXManager.cpp.o CMakeFiles/TM.dir/LogTMManager.cpp.o CMakeFiles/TM.dir/FasTMManager.cpp.o CMakeFiles/TM.dir/PleaseTMManager.cpp.o
+/usr/bin/ranlib libTM.a

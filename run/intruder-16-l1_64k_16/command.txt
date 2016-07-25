@@ -1,0 +1,1 @@
+Command: /home/walker/Documents/HTM/sesc-pleasetm.htm/scripts/..//build.smp/sesc -csmp16-l1_64k_16.conf -w0 intruder -a10 -l4 -n2048 -s1 -t16 -S0 | tee output.txt

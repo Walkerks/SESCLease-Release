@@ -1,0 +1,13 @@
+Import('*')
+
+Source('HTMManager.cpp', lib='TM')
+Source('RWSetManager.cpp', lib='TM')
+Source('TMStorage.cpp', lib='TM')
+Source('TMContext.cpp', lib='TM')
+Source('TMState.cpp', lib='TM')
+Source('TSXManager.cpp', lib='TM')
+Source('IdealTSXManager.cpp', lib='TM')
+Source('LogTMManager.cpp', lib='TM')
+Source('FasTMManager.cpp', lib='TM')
+Source('PleaseTMManager.cpp', lib='TM')
+Source('PrivateCache.cpp', lib='TM')

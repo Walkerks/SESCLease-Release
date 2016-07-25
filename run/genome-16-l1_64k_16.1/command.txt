@@ -1,0 +1,1 @@
+Command: /home/walker/Documents/HTM/sesc-pleasetm.htm/scripts/..//build.smp/sesc -csmp16-l1_64k_16.conf -w0 genome -g256 -s16 -n16384 -t16 -S0 | tee output.txt

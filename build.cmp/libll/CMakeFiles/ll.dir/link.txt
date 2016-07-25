@@ -1,0 +1,2 @@
+/usr/bin/ar cr libll.a  CMakeFiles/ll.dir/ExecutionFlow.cpp.o CMakeFiles/ll.dir/GFlow.cpp.o CMakeFiles/ll.dir/Instruction.cpp.o CMakeFiles/ll.dir/ThreadContext.cpp.o CMakeFiles/ll.dir/ThreadStats.cpp.o
+/usr/bin/ranlib libll.a

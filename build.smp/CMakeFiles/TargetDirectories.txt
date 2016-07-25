@@ -1,0 +1,7 @@
+/home/walker/Documents/HTM/sesc-pleasetm.htm/build.smp/libTM/CMakeFiles/TM.dir
+/home/walker/Documents/HTM/sesc-pleasetm.htm/build.smp/libcore/CMakeFiles/core.dir
+/home/walker/Documents/HTM/sesc-pleasetm.htm/build.smp/libemul/CMakeFiles/emul.dir
+/home/walker/Documents/HTM/sesc-pleasetm.htm/build.smp/libll/CMakeFiles/ll.dir
+/home/walker/Documents/HTM/sesc-pleasetm.htm/build.smp/libmem/CMakeFiles/mem.dir
+/home/walker/Documents/HTM/sesc-pleasetm.htm/build.smp/libsmp/CMakeFiles/sesc.dir
+/home/walker/Documents/HTM/sesc-pleasetm.htm/build.smp/libsuc/CMakeFiles/suc.dir

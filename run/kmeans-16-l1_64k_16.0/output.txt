@@ -1,0 +1,65 @@
+Using PleaseTM More Reads Wins TM (16 core 1-way)
+Config::getCharPtr for sideLowerLevel in DMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in IMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in DMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in IMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in DMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in IMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in DMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in IMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in DMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in IMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in DMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in IMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in DMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in IMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in DMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in IMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in DMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in IMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in DMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in IMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in DMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in IMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in DMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in IMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in DMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in IMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in DMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in IMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in DMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in IMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in DMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
+Config::getCharPtr for sideLowerLevel in IMemory[0] not found in config file.
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.cpp, line 143 failed for 
