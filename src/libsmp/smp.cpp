@@ -49,6 +49,7 @@ unsigned long long lastFin = 0;
 
 int32_t main(int32_t argc, char**argv, char **envp)
 {
+	printf("Using SMP \n");
     srand(1);
     osSim = new OSSim(argc, argv, envp);
 

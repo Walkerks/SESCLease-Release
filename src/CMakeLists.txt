@@ -5,8 +5,8 @@ FIND_PACKAGE(FLEX)
 FIND_PACKAGE(BISON)
 
 # Handle options
-OPTION(SMP "Bus-backed SMP Processor" ON)
-OPTION(CMP "Booksim-backed NoC Processor" OFF)
+OPTION(SMP "Bus-backed SMP Processor" OFF)
+OPTION(CMP "Booksim-backed NoC Processor" ON)
 OPTION(TM "Enable Hardware Transactional Memory" ON)
 # Either SMP or CMP
 IF(CMP)

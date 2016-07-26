@@ -1,1 +1,0 @@
-Command: /home/walker/Documents/HTM/sesc-pleasetm.htm/scripts/..//build.smp/sesc -csmp16-l1_64k_16.conf -w0 kmeans -m40 -n40 -T0.05 -i inputs/random-n2048-d16-c16.txt -t4 -S0 | tee output.txt

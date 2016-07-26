@@ -152,7 +152,6 @@ void MESIProtocol::write(MemRequest *mreq)
 
 void MESIProtocol::doWrite(MemRequest *mreq)
 {
-
     Line *l = pCache->getLine(mreq->getPAddr());
 
     GI(l->isLocked(), l->getState() == MESI_TRANS_RSV);

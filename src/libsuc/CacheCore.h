@@ -385,7 +385,6 @@ template<class Addr_t=uint32_t>
 class StateGeneric {
 private:
     Addr_t tag;
-
 public:
     virtual ~StateGeneric() {
         tag = 0;

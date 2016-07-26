@@ -623,6 +623,29 @@ libcore/CMakeFiles/core.dir/OSSim.cpp.o
  /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libTM/TMContext.h
  /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libTM/TMState.h
  /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libTM/TMStorage.h
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/booksim.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/booksim_config.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/buffer_state.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/channel.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/config_utils.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/credit.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/flit.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/flitchannel.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/globals.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/injection.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/module.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/networks/network.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/outputset.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/power/buffer_monitor.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/power/power_module.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/power/switch_monitor.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/random_utils.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/routefunc.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/routers/router.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/stats.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/timed_module.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/traffic.hpp
+ /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/trafficmanager.hpp
  /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCache.h
  /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPCacheState.h
  /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp/SMPDebug.h

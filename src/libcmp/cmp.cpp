@@ -1,3 +1,4 @@
+/** @file */ 
 /*
    SESC: Super ESCalar simulator
    Copyright (C) 2003 University of Illinois.
@@ -135,7 +136,7 @@ void print_stat(int param) {
 int32_t main(int32_t argc, char**argv, char **envp)
 {
     srand(1);
-
+	printf("Using CMP \n");
 #if (defined SIGDEBUG)
     void (*prev_fn)(int);
     prev_fn = signal (SIGINT,print_stat);

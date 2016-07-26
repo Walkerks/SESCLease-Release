@@ -103,6 +103,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named booksim
+
+# Build rule for target.
+booksim: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 booksim
+.PHONY : booksim
+
+# fast build rule for target.
+booksim/fast:
+	$(MAKE) -f libbooksim/CMakeFiles/booksim.dir/build.make libbooksim/CMakeFiles/booksim.dir/build
+.PHONY : booksim/fast
+
+#=============================================================================
 # Target rules for targets named sesc
 
 # Build rule for target.
@@ -112,7 +125,7 @@ sesc: cmake_check_build_system
 
 # fast build rule for target.
 sesc/fast:
-	$(MAKE) -f libsmp/CMakeFiles/sesc.dir/build.make libsmp/CMakeFiles/sesc.dir/build
+	$(MAKE) -f libcmp/CMakeFiles/sesc.dir/build.make libcmp/CMakeFiles/sesc.dir/build
 .PHONY : sesc/fast
 
 #=============================================================================
@@ -201,6 +214,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... booksim"
 	@echo "... sesc"
 	@echo "... ll"
 	@echo "... suc"

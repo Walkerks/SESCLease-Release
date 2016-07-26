@@ -503,6 +503,8 @@ Snippets.h
 /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libsuc/Snippets.h
 GStats.h
 /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libsuc/GStats.h
+stdio.h
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libsuc/stdio.h
 CacheCore.cpp
 /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libsuc/CacheCore.cpp
 

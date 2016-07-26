@@ -46,6 +46,10 @@ private:
     uint32_t ckpId;
     int32_t nReadMisses; // number of pending read ops when the line was brought to the cache
     int32_t nReadAccesses;
+	//if lease
+	bool leased;
+	uint32_t group_id; 
+	//end lease
 public:
     CState() {
         valid = false;
@@ -56,6 +60,10 @@ public:
         nReadMisses = 0;
         nReadAccesses = 0;
         clearTag();
+		//if lease
+		leased = false;
+		group_id = 0;
+		//end lease
     }
     bool isLocked() const {
         return (locked == true);
@@ -118,6 +126,21 @@ public:
     uint32_t getCkpId() {
         return ckpId;
     }
+
+	//if lease
+	bool isLeased(){
+		return leased;
+	}
+	void setLeased(bool lease){
+		leased = lease;
+	}
+	uint32_t getGroup_id(){
+		return group_id;	
+	}
+	uint32_t setGroup_id(uint32_t group){
+		group_id = group;
+	} 
+	//end lease
 };
 
 class Cache: public MemObj
@@ -294,6 +317,11 @@ public:
 
     virtual bool canAcceptStore(PAddr addr);
     virtual bool canAcceptLoad(PAddr addr);
+
+	//if lease
+	bool lease(MemRequest *mreq);
+	bool release(MemRequest *mreq);
+	//end lease
 
     bool isInCache(PAddr addr) const;
 

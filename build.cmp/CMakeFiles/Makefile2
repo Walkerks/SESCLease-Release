@@ -53,57 +53,108 @@ CMAKE_SOURCE_DIR = /home/walker/Documents/HTM/sesc-pleasetm.htm/src
 CMAKE_BINARY_DIR = /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp
 
 #=============================================================================
-# Directory level rules for directory libsmp
+# Directory level rules for directory libbooksim
 
 # Convenience name for "all" pass in the directory.
-libsmp/all: libsmp/CMakeFiles/sesc.dir/all
-.PHONY : libsmp/all
+libbooksim/all: libbooksim/CMakeFiles/booksim.dir/all
+.PHONY : libbooksim/all
 
 # Convenience name for "clean" pass in the directory.
-libsmp/clean: libsmp/CMakeFiles/sesc.dir/clean
-.PHONY : libsmp/clean
+libbooksim/clean: libbooksim/CMakeFiles/booksim.dir/clean
+.PHONY : libbooksim/clean
 
 # Convenience name for "preinstall" pass in the directory.
-libsmp/preinstall:
-.PHONY : libsmp/preinstall
+libbooksim/preinstall:
+.PHONY : libbooksim/preinstall
 
 #=============================================================================
-# Target rules for target libsmp/CMakeFiles/sesc.dir
+# Target rules for target libbooksim/CMakeFiles/booksim.dir
 
 # All Build rule for target.
-libsmp/CMakeFiles/sesc.dir/all: libll/CMakeFiles/ll.dir/all
-libsmp/CMakeFiles/sesc.dir/all: libsuc/CMakeFiles/suc.dir/all
-libsmp/CMakeFiles/sesc.dir/all: libmem/CMakeFiles/mem.dir/all
-libsmp/CMakeFiles/sesc.dir/all: libemul/CMakeFiles/emul.dir/all
-libsmp/CMakeFiles/sesc.dir/all: libTM/CMakeFiles/TM.dir/all
-	$(MAKE) -f libsmp/CMakeFiles/sesc.dir/build.make libsmp/CMakeFiles/sesc.dir/depend
-	$(MAKE) -f libsmp/CMakeFiles/sesc.dir/build.make libsmp/CMakeFiles/sesc.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles  56 57 58 59 60 61 62
-	@echo "Built target sesc"
-.PHONY : libsmp/CMakeFiles/sesc.dir/all
+libbooksim/CMakeFiles/booksim.dir/all:
+	$(MAKE) -f libbooksim/CMakeFiles/booksim.dir/build.make libbooksim/CMakeFiles/booksim.dir/depend
+	$(MAKE) -f libbooksim/CMakeFiles/booksim.dir/build.make libbooksim/CMakeFiles/booksim.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles  8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46
+	@echo "Built target booksim"
+.PHONY : libbooksim/CMakeFiles/booksim.dir/all
 
 # Include target in all.
-all: libsmp/CMakeFiles/sesc.dir/all
+all: libbooksim/CMakeFiles/booksim.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-libsmp/CMakeFiles/sesc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 82
-	$(MAKE) -f CMakeFiles/Makefile2 libsmp/CMakeFiles/sesc.dir/all
+libbooksim/CMakeFiles/booksim.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 39
+	$(MAKE) -f CMakeFiles/Makefile2 libbooksim/CMakeFiles/booksim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 0
-.PHONY : libsmp/CMakeFiles/sesc.dir/rule
+.PHONY : libbooksim/CMakeFiles/booksim.dir/rule
 
 # Convenience name for target.
-sesc: libsmp/CMakeFiles/sesc.dir/rule
+booksim: libbooksim/CMakeFiles/booksim.dir/rule
+.PHONY : booksim
+
+# clean rule for target.
+libbooksim/CMakeFiles/booksim.dir/clean:
+	$(MAKE) -f libbooksim/CMakeFiles/booksim.dir/build.make libbooksim/CMakeFiles/booksim.dir/clean
+.PHONY : libbooksim/CMakeFiles/booksim.dir/clean
+
+# clean rule for target.
+clean: libbooksim/CMakeFiles/booksim.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory libcmp
+
+# Convenience name for "all" pass in the directory.
+libcmp/all: libcmp/CMakeFiles/sesc.dir/all
+.PHONY : libcmp/all
+
+# Convenience name for "clean" pass in the directory.
+libcmp/clean: libcmp/CMakeFiles/sesc.dir/clean
+.PHONY : libcmp/clean
+
+# Convenience name for "preinstall" pass in the directory.
+libcmp/preinstall:
+.PHONY : libcmp/preinstall
+
+#=============================================================================
+# Target rules for target libcmp/CMakeFiles/sesc.dir
+
+# All Build rule for target.
+libcmp/CMakeFiles/sesc.dir/all: libbooksim/CMakeFiles/booksim.dir/all
+libcmp/CMakeFiles/sesc.dir/all: libll/CMakeFiles/ll.dir/all
+libcmp/CMakeFiles/sesc.dir/all: libsuc/CMakeFiles/suc.dir/all
+libcmp/CMakeFiles/sesc.dir/all: libmem/CMakeFiles/mem.dir/all
+libcmp/CMakeFiles/sesc.dir/all: libemul/CMakeFiles/emul.dir/all
+libcmp/CMakeFiles/sesc.dir/all: libTM/CMakeFiles/TM.dir/all
+	$(MAKE) -f libcmp/CMakeFiles/sesc.dir/build.make libcmp/CMakeFiles/sesc.dir/depend
+	$(MAKE) -f libcmp/CMakeFiles/sesc.dir/build.make libcmp/CMakeFiles/sesc.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles  79 80 81 82 83 84 85
+	@echo "Built target sesc"
+.PHONY : libcmp/CMakeFiles/sesc.dir/all
+
+# Include target in all.
+all: libcmp/CMakeFiles/sesc.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+libcmp/CMakeFiles/sesc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 100
+	$(MAKE) -f CMakeFiles/Makefile2 libcmp/CMakeFiles/sesc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 0
+.PHONY : libcmp/CMakeFiles/sesc.dir/rule
+
+# Convenience name for target.
+sesc: libcmp/CMakeFiles/sesc.dir/rule
 .PHONY : sesc
 
 # clean rule for target.
-libsmp/CMakeFiles/sesc.dir/clean:
-	$(MAKE) -f libsmp/CMakeFiles/sesc.dir/build.make libsmp/CMakeFiles/sesc.dir/clean
-.PHONY : libsmp/CMakeFiles/sesc.dir/clean
+libcmp/CMakeFiles/sesc.dir/clean:
+	$(MAKE) -f libcmp/CMakeFiles/sesc.dir/build.make libcmp/CMakeFiles/sesc.dir/clean
+.PHONY : libcmp/CMakeFiles/sesc.dir/clean
 
 # clean rule for target.
-clean: libsmp/CMakeFiles/sesc.dir/clean
+clean: libcmp/CMakeFiles/sesc.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -128,7 +179,7 @@ libll/preinstall:
 libll/CMakeFiles/ll.dir/all:
 	$(MAKE) -f libll/CMakeFiles/ll.dir/build.make libll/CMakeFiles/ll.dir/depend
 	$(MAKE) -f libll/CMakeFiles/ll.dir/build.make libll/CMakeFiles/ll.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles  39 40 41 42 43
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles  66 67 68 69
 	@echo "Built target ll"
 .PHONY : libll/CMakeFiles/ll.dir/all
 
@@ -138,7 +189,7 @@ all: libll/CMakeFiles/ll.dir/all
 
 # Build rule for subdir invocation for target.
 libll/CMakeFiles/ll.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 libll/CMakeFiles/ll.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 0
 .PHONY : libll/CMakeFiles/ll.dir/rule
@@ -178,7 +229,7 @@ libsuc/preinstall:
 libsuc/CMakeFiles/suc.dir/all: libcore/CMakeFiles/core.dir/all
 	$(MAKE) -f libsuc/CMakeFiles/suc.dir/build.make libsuc/CMakeFiles/suc.dir/depend
 	$(MAKE) -f libsuc/CMakeFiles/suc.dir/build.make libsuc/CMakeFiles/suc.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles  63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles  86 87 88 89 90 91 92 93 94 95 96 97 98 99 100
 	@echo "Built target suc"
 .PHONY : libsuc/CMakeFiles/suc.dir/all
 
@@ -188,7 +239,7 @@ all: libsuc/CMakeFiles/suc.dir/all
 
 # Build rule for subdir invocation for target.
 libsuc/CMakeFiles/suc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 56
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 40
 	$(MAKE) -f CMakeFiles/Makefile2 libsuc/CMakeFiles/suc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 0
 .PHONY : libsuc/CMakeFiles/suc.dir/rule
@@ -229,7 +280,7 @@ libcore/CMakeFiles/core.dir/all: libll/CMakeFiles/ll.dir/all
 libcore/CMakeFiles/core.dir/all: libTM/CMakeFiles/TM.dir/all
 	$(MAKE) -f libcore/CMakeFiles/core.dir/build.make libcore/CMakeFiles/core.dir/depend
 	$(MAKE) -f libcore/CMakeFiles/core.dir/build.make libcore/CMakeFiles/core.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles  12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles  47 48 49 50 51 52 53 54 55 56 57 58 59 60
 	@echo "Built target core"
 .PHONY : libcore/CMakeFiles/core.dir/all
 
@@ -239,7 +290,7 @@ all: libcore/CMakeFiles/core.dir/all
 
 # Build rule for subdir invocation for target.
 libcore/CMakeFiles/core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 libcore/CMakeFiles/core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 0
 .PHONY : libcore/CMakeFiles/core.dir/rule
@@ -281,7 +332,7 @@ libmem/CMakeFiles/mem.dir/all: libsuc/CMakeFiles/suc.dir/all
 libmem/CMakeFiles/mem.dir/all: libTM/CMakeFiles/TM.dir/all
 	$(MAKE) -f libmem/CMakeFiles/mem.dir/build.make libmem/CMakeFiles/mem.dir/depend
 	$(MAKE) -f libmem/CMakeFiles/mem.dir/build.make libmem/CMakeFiles/mem.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles  44 45 46 47 48 49 50 51 52 53 54 55
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles  70 71 72 73 74 75 76 77 78
 	@echo "Built target mem"
 .PHONY : libmem/CMakeFiles/mem.dir/all
 
@@ -291,7 +342,7 @@ all: libmem/CMakeFiles/mem.dir/all
 
 # Build rule for subdir invocation for target.
 libmem/CMakeFiles/mem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 68
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 49
 	$(MAKE) -f CMakeFiles/Makefile2 libmem/CMakeFiles/mem.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 0
 .PHONY : libmem/CMakeFiles/mem.dir/rule
@@ -331,7 +382,7 @@ libemul/preinstall:
 libemul/CMakeFiles/emul.dir/all:
 	$(MAKE) -f libemul/CMakeFiles/emul.dir/build.make libemul/CMakeFiles/emul.dir/depend
 	$(MAKE) -f libemul/CMakeFiles/emul.dir/build.make libemul/CMakeFiles/emul.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles  32 33 34 35 36 37 38
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles  61 62 63 64 65
 	@echo "Built target emul"
 .PHONY : libemul/CMakeFiles/emul.dir/all
 
@@ -341,7 +392,7 @@ all: libemul/CMakeFiles/emul.dir/all
 
 # Build rule for subdir invocation for target.
 libemul/CMakeFiles/emul.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 libemul/CMakeFiles/emul.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 0
 .PHONY : libemul/CMakeFiles/emul.dir/rule
@@ -381,7 +432,7 @@ libTM/preinstall:
 libTM/CMakeFiles/TM.dir/all:
 	$(MAKE) -f libTM/CMakeFiles/TM.dir/build.make libTM/CMakeFiles/TM.dir/depend
 	$(MAKE) -f libTM/CMakeFiles/TM.dir/build.make libTM/CMakeFiles/TM.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles  1 2 3 4 5 6 7 8 9 10 11
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles  1 2 3 4 5 6 7
 	@echo "Built target TM"
 .PHONY : libTM/CMakeFiles/TM.dir/all
 
@@ -391,7 +442,7 @@ all: libTM/CMakeFiles/TM.dir/all
 
 # Build rule for subdir invocation for target.
 libTM/CMakeFiles/TM.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 libTM/CMakeFiles/TM.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/CMakeFiles 0
 .PHONY : libTM/CMakeFiles/TM.dir/rule

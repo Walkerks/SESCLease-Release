@@ -22,7 +22,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
 // CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
-CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_BUILD_TYPE:STRING=
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -172,7 +172,7 @@ CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Booksim-backed NoC Processor
-CMP:BOOL=OFF
+CMP:BOOL=ON
 
 //path to the flex executable
 FLEX_EXECUTABLE:FILEPATH=/usr/bin/flex
@@ -190,7 +190,7 @@ SESC_BINARY_DIR:STATIC=/home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp
 SESC_SOURCE_DIR:STATIC=/home/walker/Documents/HTM/sesc-pleasetm.htm/src
 
 //Bus-backed SMP Processor
-SMP:BOOL=ON
+SMP:BOOL=OFF
 
 //Enable Hardware Transactional Memory
 TM:BOOL=ON
@@ -203,6 +203,21 @@ TM_LIB_DEPENDS:STATIC=
 
 //Value Computed by CMake
 TM_SOURCE_DIR:STATIC=/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libTM
+
+//Value Computed by CMake
+booksim_BINARY_DIR:STATIC=/home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/libbooksim
+
+//Dependencies for target
+booksim_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+booksim_SOURCE_DIR:STATIC=/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim
+
+//Value Computed by CMake
+cmp_BINARY_DIR:STATIC=/home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/libcmp
+
+//Value Computed by CMake
+cmp_SOURCE_DIR:STATIC=/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libcmp
 
 //Value Computed by CMake
 core_BINARY_DIR:STATIC=/home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/libcore
@@ -239,12 +254,6 @@ mem_LIB_DEPENDS:STATIC=general;core;general;suc;
 
 //Value Computed by CMake
 mem_SOURCE_DIR:STATIC=/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libmem
-
-//Value Computed by CMake
-smp_BINARY_DIR:STATIC=/home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/libsmp
-
-//Value Computed by CMake
-smp_SOURCE_DIR:STATIC=/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libsmp
 
 //Value Computed by CMake
 suc_BINARY_DIR:STATIC=/home/walker/Documents/HTM/sesc-pleasetm.htm/build.cmp/libsuc
@@ -344,7 +353,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=8
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

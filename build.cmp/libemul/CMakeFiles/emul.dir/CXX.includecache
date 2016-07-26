@@ -311,6 +311,8 @@ libll/Instruction.h
 /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libemul/libll/Instruction.h
 libcore/OSSim.h
 /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libemul/libcore/OSSim.h
+stdio.h
+/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libemul/stdio.h
 libTM/HTMManager.h
 /home/walker/Documents/HTM/sesc-pleasetm.htm/src/libemul/libTM/HTMManager.h
 

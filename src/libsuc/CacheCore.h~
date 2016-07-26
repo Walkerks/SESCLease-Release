@@ -234,7 +234,6 @@ public:
     }
 
     Addr_t calcTag(Addr_t addr)       const {
-		printf("Tag: %X\n", (addr >> log2AddrLs));
         return (addr >> log2AddrLs);
     }
 
@@ -386,7 +385,6 @@ template<class Addr_t=uint32_t>
 class StateGeneric {
 private:
     Addr_t tag;
-
 public:
     virtual ~StateGeneric() {
         tag = 0;

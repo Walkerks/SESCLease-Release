@@ -31,6 +31,7 @@ set(CMAKE_TARGET_DEFINITIONS
   "LINUX"
   "MIPS_EMUL"
   "POSIX_MEMALIGN"
+  "SESC_CMP"
   "SESC_SMP"
   "TM"
   )
@@ -52,6 +53,12 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/walker/Documents/HTM/sesc-pleasetm.htm/src"
   "/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libsuc"
+  "/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim"
+  "/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/allocators"
+  "/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/arbiters"
+  "/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/routers"
+  "/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/networks"
+  "/home/walker/Documents/HTM/sesc-pleasetm.htm/src/libbooksim/power"
   )
 set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 set(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

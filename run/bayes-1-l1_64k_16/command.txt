@@ -1,0 +1,1 @@
+Command: /home/walker/Documents/HTM/sesc-pleasetm.htm/scripts/..//build.smp/sesc -csmp16-l1_64k_16.conf -w0 bayes -v32 -r1024 -n2 -p20 -i2 -e2 -s0 -t1 -S0 | tee output.txt
