@@ -28,7 +28,6 @@ SET(cmp_HEADERS
     SMPRouter.h
     SMPSliceCache.h
     SMPSystemBus.h
-	LoadBuffer.h
 )
 
 ADD_EXECUTABLE(sesc ${cmp_SOURCES} ${cmp_HEADERS})

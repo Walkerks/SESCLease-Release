@@ -48,6 +48,8 @@ unsigned long long lastFin = 0;
 #include "libTM/HTMManager.h"
 #endif
 
+
+
 #if (defined SIGDEBUG)
 #include <signal.h>
 #include "SMPCache.h"
@@ -136,7 +138,7 @@ void print_stat(int param) {
 int32_t main(int32_t argc, char**argv, char **envp)
 {
     srand(1);
-	printf("Writing with MESI \n");
+	printf("Using CMP \n");
 #if (defined SIGDEBUG)
     void (*prev_fn)(int);
     prev_fn = signal (SIGINT,print_stat);
@@ -174,6 +176,11 @@ int32_t main(int32_t argc, char**argv, char **envp)
     ppr = &pr;
     pms = &ms;
 #endif
+
+//testing timer
+	LeaseTimer myLeaseTimer;
+	myLeaseTimer.setTimerLength(7);
+	myLeaseTimer.start();
 
     GLOG(SMPDBG_CONSTR, "I am booting now");
     osSim->boot();

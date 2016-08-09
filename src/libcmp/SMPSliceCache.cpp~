@@ -759,7 +759,7 @@ void SMPSliceCache::doAccessDir(MemRequest *mreq)
                            getSymbolicName(), de->isBusy(), de->getStatus(),
                            sreq->msgOwner->getSymbolicName(), mreq->getPAddr(), globalClock);
 
-				//destroy the memrequest we received                
+				//destroy tge memrequest we received                
 				sreq->destroy();
 
 				//send the NAK request out
@@ -851,7 +851,7 @@ void SMPSliceCache::doAccessDir(MemRequest *mreq)
                    , addr
                    , globalClock
                    , sreq);
-        // Find Dir entry
+        // Find Dir
         DirectoryEntry *de = dir->find(addr);
 
         IJ(de);

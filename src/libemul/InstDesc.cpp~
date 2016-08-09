@@ -565,6 +565,7 @@ InstDesc *emulLease(InstDesc *inst, ThreadContext *context){
 	uint32_t leaseTime = ArchDefs<ExecModeMips32>::getReg<uint32_t,RegTypeGpr>(context,ArchDefs<ExecModeMips32>::RegA1);
 	//point to the array of addresses to lease on the stack
 	uint32_t lAddr = ArchDefs<ExecModeMips32>::getReg<uint32_t,RegTypeGpr>(context,ArchDefs<ExecModeMips32>::RegA2);
+	printf("Leasing\n");
 	printf("Number, %d\n", numAddrs);
 	printf("Lease Time, %d\n", leaseTime);
 	printf("arrayadd, %d\n", lAddr);
@@ -578,7 +579,7 @@ InstDesc * emulRelease(InstDesc *inst, ThreadContext *context){
 	Pid_t pid = context->getPid();
 	//point to the addresse to release
 	uint32_t lAddr = ArchDefs<ExecModeMips32>::getReg<uint32_t,RegTypeGpr>(context,ArchDefs<ExecModeMips32>::RegA0);
-	printf("release\n")	
+	printf("release\n");	
 	printf("addr, %d\n", lAddr);
 
 	//Advance the PC
@@ -1239,6 +1240,14 @@ public:
             case TypSynSt:
                 sescInst->opcode=iStore;
                 break;
+			//if lease
+			case TypLease:
+				
+			break;
+			case TypRelease:
+				//
+				break;
+			//end lease
             default:
                 fail("createSescInst: Unknown subtype for TypMemOp\n");
             }
@@ -2161,10 +2170,10 @@ DecodeInst<mode>::OpMap::OpMap(void) {
     ops[OpKey(0xFC000000,0x74000000)]<<OpData( "tm.meta"      , CtlNorm , TMOpAbort   , ArgNo  , ArgNo  , ArgNo  , ImmNo  , emulTMMeta);
     ops[OpKey(0xFC000000,0x78000000)]<<OpData( "tm.commit"    , CtlNorm , TMOpCommit  , ArgNo  , ArgNo  , ArgNo  , ImmNo  , emulTMCommit);
 #endif
-	ops[OpKey(0xFC00003F,0xbc000000)]<<OpData( "lease"    , CtlNorm , TypNop   , ArgNo  , ArgNo  , ArgNo  , ImmNo  ,emulLease);
-	printf("Leasing");
-    ops[OpKey(0xFC00003F,0xbc000001)]<<OpData( "release"      , CtlNorm , TypNop   , ArgNo  , ArgNo  , ArgNo  , ImmNo  , emulRelease);
-
+	//if lease
+	ops[OpKey(0xFC00003F,0xbc000000)]<<OpData( "lease"    , CtlNorm , TypLease   , ArgNo  , ArgNo  , ArgNo  , ImmNo  ,emulLease);
+    ops[OpKey(0xFC00003F,0xbc000001)]<<OpData( "release"      , CtlNorm , TypRelease   , ArgNo  , ArgNo  , ArgNo  , ImmNo  , emulRelease);
+	//end lease
 
     build(ops,OpKey(0,0));
 }

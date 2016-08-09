@@ -1,2 +1,0 @@
-/usr/bin/ar cr libemul.a  CMakeFiles/emul.dir/AddressSpace.cpp.o CMakeFiles/emul.dir/ElfObject.cpp.o CMakeFiles/emul.dir/EmulInit.cpp.o CMakeFiles/emul.dir/FileSys.cpp.o CMakeFiles/emul.dir/InstDesc.cpp.o CMakeFiles/emul.dir/LinuxSys.cpp.o CMakeFiles/emul.dir/SignalHandling.cpp.o
-/usr/bin/ranlib libemul.a

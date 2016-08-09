@@ -101,6 +101,8 @@ enum InstTypInfoEnum {
 	TMOpTest	= 0x30+TypTMOp,
 #endif
 
+
+
     TypSubMask  = 0xFF0, // Mask for the subtype
     // Subtypes for integer opcodes
     IntOpALU    = 0x00 + TypIntOp, // ALU operation
@@ -124,6 +126,11 @@ enum InstTypInfoEnum {
     TypMemSt    = 0x10 + TypMemOp, // Store
     TypSynLd    = 0x20 + TypMemOp, // Sync Load
     TypSynSt    = 0x30 + TypMemOp, // Sync Store
+	//if lease
+	TypLease 	= 0x40 + TypMemOp, // Lease
+	TypRelease = 0x50 + TypMemOp, // Release
+	
+	//end lease
     MemSizeMask = 0xF, // Mask for load/store access size
     MemOpLd1    = TypMemLd+1,
     MemOpLd2    = TypMemLd+2,
